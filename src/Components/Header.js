@@ -31,7 +31,15 @@ function Header () {
     -ms-flex: 1 0 auto ;
     flex: 1 0 auto ;
     `
-    
+    const IconCoverStyle= {
+        display: 'block',
+        fill: 'none',
+        height: '12px',
+        width: '12px',
+        stroke: 'currentColor',
+        strokeWidth: '5.333333333333333',
+        overflow: 'visible',
+    }
     return(
     <>
         <InfoWrapper>
@@ -70,6 +78,112 @@ function Header () {
                 </a>
             </LogoSection>
             <MenuBarSection>
+                <div className='Menu-bar-area-section'>
+                    <div
+                     className='Menu-bar-area-inner-wrapper'
+                     role='search'
+                     aria-labelledby='LittleSearchLabel'
+                     >
+                         <button
+                         className='Menu-bar-area-inner-area'
+                         type='button'
+                         >
+                             <div className='Menu-bar-area-under-wrapper'>검색 시작하기</div>
+                             <div className='Search-button-under-area'>
+                                 <svg
+                                 viewBox='0 0 32 32'
+                                 xmlns='http://www.w3.org/2000/svg'
+                                 style={IconCoverStyle}
+                                 aria-hidden='true'
+                                 role='presentation'
+                                 focusable='false'
+                                 >
+                                     <g fill='none'>
+                                         <path
+                                         d="m 13 24 c 6.07513 0 11 -4.92487 11 -11 c 0 -6.07513 -4.92487 -11 -11 -11 c -6.07513 0 -11 4.92487 -11 11 c 0 6.07513 4.92487 11 11 11 Z m 8 -3 l 9 9"
+                                         ></path>
+                                     </g>
+                                 </svg>
+                             </div>
+                         </button>
+                     </div>
+                </div>
+                <div className='Total-Menu-bars-section'>
+                    <div>
+                        <div className='Total-menu-inner-area'>
+                            <div>
+                                <form
+                                className='Middle-area-total-wrapper'
+                                action='/'
+                                method='get'
+                                role='search'
+                                >
+                                    <fieldset className='Upper-menu-area'>
+                                        <div
+                                        className='Upper-menu-inner-wrapper'
+                                        role='tablist'
+                                        aria-label='무엇을 찾고 있으신가요?'
+                                        >
+                                            <label for='search-block-tab-false-STAYS'>
+                                                <input
+                                                type='radio'
+                                                className='Input-common-style'
+                                                role='tab'
+                                                aria-selected='true'
+                                                ></input>
+                                                <span className='Span-common-style'>숙소</span>
+                                            </label>
+                                            <label for='search-block-tab-false-EXPERIENCE'>
+                                                <input
+                                                type='raido'
+                                                className='Input-common-style'
+                                                role='tab'
+                                                aria-selected='false'
+                                                ></input>
+                                                <span className='Span-common-style'>체험</span>
+                                            </label>
+                                            <div className='Online-experience-area'>
+                                                <a
+                                                href='/'
+                                                className='Online-experience-wrapper'
+                                                >
+                                                    <div className='Online-experience-inner-wrapper'>온라인 체험</div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </fieldset>
+                                    <div 
+                                    className='Under-menu-area'
+                                    data-pannel-bounds='true'
+                                    >
+                                        <div className='Under-menu-inner-area'>
+                                            <div className='Location-total-wrapper'>
+                                                <div className='Location-inner-wrapper'>
+                                                    <label 
+                                                    className='Location-inner-area'
+                                                    for='bigsearch-query-detached-query'
+                                                    >
+                                                        <div className='Location-contents-wrapper'>
+                                                            <div className='Location-printing-area'>위치</div>
+                                                            <input
+                                                            className='Location-input-area'
+                                                            placeholder='어디로 여행가세요?'
+                                                            ></input>
+                                                        </div>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div className='Common-partition-section'></div>
+                                            <div></div>
+                                            <div className='Common-partition-section'></div>
+                                            <div></div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </MenuBarSection>
             <IconSection></IconSection>
         </HeaderWrapper>
