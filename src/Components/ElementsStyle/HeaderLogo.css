@@ -1,0 +1,30 @@
+.Logo-outter-space {
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    outline: none !important;
+    -webkit-align-items: center !important;
+    align-items: center !important;
+    display: -webkit-inline-box !important;
+    display: -moz-inline-box !important;
+    display: -ms-inline-flexbox !important;
+    display: -webkit-inline-flex !important;
+    display: inline-flex !important;
+    height: 80px !important;
+    position: relative !important;
+    vertical-align: middle !important;
+    z-index: 1 !important;
+    color: #222222 !important;
+}
+.Logo-outter-space::before {
+    border-radius: 12px !important;
+    bottom: 8px !important;
+    content: "" !important;
+    left: -8px !important;
+    position: absolute !important;
+    right: -8px !important;
+    top: 8px !important;
+
+}
+.Logo-box {
+    display: block;
+}
