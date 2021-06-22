@@ -154,3 +154,7 @@ html {
     transform: scaleY(3.05) !important;
     opacity: 0 !important;
 }
+.MainHeaderInnerarea::before {
+    display: flex !important;
+    content: '' !important;
+}

@@ -6,7 +6,7 @@ function Logo () {
     const LogoSection = styled.div `
     -webkit-flex: 0 0 auto ;
     -ms-flex: 0 0 auto ;
-    flex: 0 0 auto ;
+    flex: 1 0 140px;
     `
     return(
         <LogoSection>

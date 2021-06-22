@@ -4,19 +4,14 @@ import styled from 'styled-components';
 
 function Menu () {
     const MiddleContentsWrapper = styled.div `
+    text-align: center ;
     flex: 0 1 auto ;
     min-width: 348px ;
     padding: 0 24px ;
+    text-align: center ;
+    min-height: 48px ;
+    
     `
-    const IconWrapperStyle = {
-        display: 'block',
-        fill: 'none',
-        height: '12px',
-        width: '12px',
-        stroke: 'currentColor',
-        strokeWidth: '5.333333333333333',
-        overflow: 'visible',
-    }
     const ModifyIconStyle = {
         display: 'block',
         fill: 'none',
@@ -26,26 +21,38 @@ function Menu () {
         strokeWidth: '4',
         overflow: 'visible',
     }
+    const SearchBarUnderStyle = {
+        display: 'block',
+        fill: 'none',
+        height: '12px',
+        width: '12px',
+        stroke: 'currentcolor',
+        strokeWidth: '5.33333',
+        overflow: 'visible',
+    }
     return(
         <MiddleContentsWrapper>
-            <div className='Search-bar-area'>
+            <div className='Search-Bar-Under-Area'>
                 <div 
-                className='Search-bar-outter-area'
+                className='Search-Bar-Under-Cover-Area'
                 role='search'
                 aria-labelledby='LittleSearchLabel'
                 >
                     <button
-                    className='Search-bar-inner-area'
+                    className='Search-Bar-Under-Cover-Area-B'
+                    type='button'
                     >
-                        <div className='Search-bar-inner-wrapper'>검색 시작하기</div>
-                        <div className='Search-bar-button-wrapper'>
+                        <div className='Search-Bar-Under-List-Area'>검색 시작하기</div>
+                        <div
+                         className='Search-Bar-Under-Wrapper-Area'
+                         data-icon='true'
+                         >
                             <svg
                             viewBox='0 0 32 32'
                             xmlns='http://www.w3.org/2000/svg'
-                            style={IconWrapperStyle}
                             aria-hidden='true'
                             role='presentation'
-                            focusable='false'
+                            style={SearchBarUnderStyle} 
                             >
                                 <g fill='none'>
                                     <path
@@ -53,7 +60,7 @@ function Menu () {
                                     ></path>
                                 </g>
                             </svg>
-                        </div>
+                         </div>
                     </button>
                 </div>
             </div>

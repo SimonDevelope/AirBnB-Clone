@@ -1,0 +1,209 @@
+.My-section-outter-wrapper {
+    -webkit-box-pack: end !important;
+    -ms-flex-pack: end !important;
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    position: relative !important;
+    display: -webkit-box !important;
+    display: -moz-box !important;
+    display: -ms-flexbox !important;
+    display: -webkit-flex !important;
+    display: flex !important;
+    -webkit-align-items: center !important;
+    align-items: center !important;
+    -webkit-justify-content: flex-end !important;
+    justify-content: flex-end !important;
+    height: 80px !important;
+}
+.To-be-host-section-area {
+    -webkit-box-pack: end !important;
+    -ms-flex-pack: end !important;
+    display: -webkit-box !important;
+    display: -moz-box !important;
+    display: -ms-flexbox !important;
+    display: -webkit-flex !important;
+    display: flex !important;
+    -webkit-flex: auto !important;
+    -ms-flex: 1 1 auto !important;
+    flex: auto !important;
+    -webkit-justify-content: flex-end !important;
+    justify-content: flex-end !important;
+    margin-right: 8px !important;
+}
+.To-be-host-inner-wrappre {
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    appearance: none !important;
+    background: transparent !important;
+    border: 0px !important;
+    cursor: pointer !important;
+    display: inline-block !important;
+    font-family: inherit !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    line-height: 18px !important;
+    margin: 0px !important;
+    outline: none !important;
+    overflow: visible !important;
+    padding: 12px !important;
+    text-align: inherit !important;
+    text-decoration: none !important;
+    -webkit-user-select: auto !important;
+    -moz-user-select: auto !important;
+    -ms-user-select: auto !important;
+    user-select: auto !important;
+    position: relative !important;
+    white-space: nowrap !important;
+    z-index: 1 !important;
+    color: #222222 !important;
+}
+.To-be-host-inner-wrappre::before {
+    border-radius: 22px !important;
+    bottom: 0px !important;
+    content: "" !important;
+    left: -3px !important;
+    position: absolute !important;
+    right: -3px !important;
+    top: 0px !important;
+    z-index: 0 !important;
+}
+.To-be-host-word-area {
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    -webkit-align-items: center !important;
+    align-items: center !important;
+    display: -webkit-box !important;
+    display: -moz-box !important;
+    display: -ms-flexbox !important;
+    display: -webkit-flex !important;
+    display: flex !important;
+    height: 100% !important;
+    position: relative !important;
+    z-index: 1 !important;
+}
+.world-emoji-outter-wrapper {
+    position: relative !important;
+    display: inline !important;
+}
+.world-emoji-inner-wrapper {
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    appearance: none !important;
+    background: transparent !important;
+    border: 0px !important;
+    cursor: pointer !important;
+    display: inline-block !important;
+    font-family: inherit !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    line-height: 18px !important;
+    margin: 0px !important;
+    outline: none !important;
+    overflow: visible !important;
+    padding: 12px !important;
+    text-align: inherit !important;
+    text-decoration: none !important;
+    -webkit-user-select: auto !important;
+    -moz-user-select: auto !important;
+    -ms-user-select: auto !important;
+    user-select: auto !important;
+    position: relative !important;
+    white-space: nowrap !important;
+    z-index: 1 !important;
+    color: #222222 !important;
+}
+.world-emoji-inner-wrapper::before {
+    border-radius: 22px !important;
+    bottom: 0px !important;
+    content: "" !important;
+    left: -3px !important;
+    position: absolute !important;
+    right: -3px !important;
+    top: 0px !important;
+    z-index: 0 !important;
+}
+.world-emoji-inner-area-A {
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    -webkit-align-items: center !important;
+    align-items: center !important;
+    display: -webkit-box !important;
+    display: -moz-box !important;
+    display: -ms-flexbox !important;
+    display: -webkit-flex !important;
+    display: flex !important;
+    height: 100% !important;
+    position: relative !important;
+    z-index: 1 !important;
+}
+.world-emoji-inner-area-B {
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    -webkit-align-items: center !important;
+    align-items: center !important;
+    display: -webkit-box !important;
+    display: -moz-box !important;
+    display: -ms-flexbox !important;
+    display: -webkit-flex !important;
+    display: flex !important;
+    height: 18px !important;
+    position: relative !important;
+    z-index: 1 !important;
+}
+.My-icon-area-fixed {
+    display: inline !important;
+    position: relative !important;
+}
+.My-icon-inner-wrapper {
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    appearance: none !important;
+    background: transparent !important;
+    border: 1px solid #DDDDDD !important;
+    color: #222222 !important;
+    cursor: pointer !important;
+    display: -webkit-inline-box !important;
+    display: -moz-inline-box !important;
+    display: -ms-inline-flexbox !important;
+    display: -webkit-inline-flex !important;
+    display: inline-flex !important;
+    font-family: inherit !important;
+    font-size: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+    margin: 0px !important;
+    outline: none !important;
+    overflow: visible !important;
+    padding: 5px 5px 5px 12px !important;
+    text-align: inherit !important;
+    text-decoration: none !important;
+    -webkit-user-select: auto !important;
+    -moz-user-select: auto !important;
+    -ms-user-select: auto !important;
+    user-select: auto !important;
+    -webkit-align-items: center !important;
+    align-items: center !important;
+    background-color: #FFFFFF !important;
+    border-radius: 21px !important;
+    height: 42px !important;
+    position: relative !important;
+    vertical-align: middle !important;
+    -webkit-transition: box-shadow 0.2s ease !important;
+    -moz-transition: box-shadow 0.2s ease !important;
+    transition: box-shadow 0.2s ease !important;
+    z-index: 1 !important;
+}
+.Human-emoji-outter-wrapper {
+    color: #717171 !important;
+    -webkit-flex: 0 0 30px !important;
+    -ms-flex: 0 0 30px !important;
+    flex: 0 0 30px !important;
+    height: 30px !important;
+    margin-left: 12px !important;
+    overflow: hidden !important;
+    position: relative !important;
+    width: 30px !important;
+    z-index: 1 !important;
+}
