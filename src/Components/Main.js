@@ -1,9 +1,15 @@
 import React from 'react';
 import styled from 'styled-components';
 import '../Style/Main.css';
+import Look from './Elements/LookAround';
+import Where from './Elements/Where';
+import Host from './Elements/StartToHost';
+import Experience from './Elements/LookExperience';
+import Setting from './Elements/NewFunction';
 
 function Main () {
     const MainWrapper = styled.main`
+    display: block;
     `
     const MainInnerWrapper = styled.div`
     min-height:400px;
@@ -29,7 +35,7 @@ function Main () {
             <MainInnerWrapper>
                 <MainContentsWrapper>
                     <div className='Common-Contents-style'>
-                        <div>
+                        <div className='Background-IMG-Ex'>
                             <div className='Header-area-wrapper'>
                                 <div className='Total-view-port-IMG'>
                                     <div 
@@ -38,14 +44,14 @@ function Main () {
                                     >
                                         <picture>
                                             <source
-                                            srcSet='https://a0.muscache.com/im/pictures/4e9fc041-1c7e-4f2d-b2bd-52c9cdc6a512.jpg?im_w=720'
+                                            srcSet='https://a0.muscache.com/im/pictures/ddc7f01f-3fb3-483c-87e6-701dad52c930.jpg?im_w=960'
                                             ></source>
                                             <img
                                             className='Image-wrapper'
                                             aria-hidden='true'
-                                            src='https://a0.muscache.com/im/pictures/b65bef33-07be-4c55-b613-bb990193e8f6.jpg?im_q=highq&im_w=720'
+                                            src='https://a0.muscache.com/im/pictures/ddc7f01f-3fb3-483c-87e6-701dad52c930.jpg?im_w=960'
                                             style={IMGStyle}
-                                            alt='https://a0.muscache.com/im/pictures/b65bef33-07be-4c55-b613-bb990193e8f6.jpg?im_q=highq&im_w=720'
+                                            alt='https://a0.muscache.com/im/pictures/ddc7f01f-3fb3-483c-87e6-701dad52c930.jpg?im_w=960'
                                             ></img>
                                         </picture>
                                     </div>
@@ -128,11 +134,11 @@ function Main () {
                             </div>
                         </div>
                     </div>
-                    <div className='Common-Contents-style'></div>
-                    <div className='Common-Contents-style'></div>
-                    <div className='Common-Contents-style'></div>
-                    <div className='Common-Contents-style'></div>
-                    <div className='Common-Contents-style'></div>
+                    <Look />
+                    <Where />
+                    <Host />
+                    <Experience />
+                    <Setting />
                 </MainContentsWrapper>
             </MainInnerWrapper>
         </MainWrapper>

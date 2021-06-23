@@ -17,7 +17,7 @@ function Menu () {
         fill: 'none',
         height: '16px',
         width: '16px',
-        stroke: 'currentColor',
+        stroke: '#fff',
         strokeWidth: '4',
         overflow: 'visible',
     }
