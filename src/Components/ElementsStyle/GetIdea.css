@@ -1,0 +1,155 @@
+.Common-Contents-style::after {
+    display: -webkit-box !important;
+    display: -moz-box !important;
+    display: -ms-flexbox !important;
+    display: -webkit-flex !important;
+    display: flex !important;
+    content: '' !important;
+}
+.Common-Contents-style::before {
+    display: -webkit-box !important;
+    display: -moz-box !important;
+    display: -ms-flexbox !important;
+    display: -webkit-flex !important;
+    display: flex !important;
+    content: '' !important;
+}
+.Idea-total-view-port-wrapper {
+    margin-bottom: var(--exp-pdw-lg-bot, 40px) !important;
+    margin-top: var(--exp-pdw-lg-top, 0px) !important;
+    padding-left: var(--exp-pdw-lg-lead, 80px) !important;
+    padding-right: var(--exp-pdw-lg-trail, 80px) !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    max-width: 1760px !important;
+    --exp-pdw-sm-bot: 24px;
+    --exp-pdw-md-bot: 8px;
+    --exp-pdw-lg-bot: 24px;
+}
+.Idea-total-view-port-inner-wrapper {
+    height: 400px !important;
+    overflow: clip !important;
+    position: relative !important;
+    text-align: left !important;
+    text-decoration: none !important;
+    width: 100% !important;
+    border-radius: 16px !important;
+    z-index: 0 !important;
+    background: rgb(72, 72, 72) !important;
+    border: 0px none !important;
+    display: block !important;
+}
+.Idea-total-image-outter-wrapper {
+    cursor: pointer !important;
+    position: relative !important;
+    touch-action: manipulation !important;
+    font-family: inherit !important;
+    font-size: inherit !important;
+    line-height: inherit !important;
+    font-weight: inherit !important;
+    border-radius: 0px !important;
+    outline: none !important;
+    transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s !important;
+    -webkit-tap-highlight-color: transparent !important;
+    background: transparent !important;
+    border: none !important;
+    color: inherit !important;
+    display: block !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    text-align: inherit !important;
+    text-decoration: none !important;
+    height: 100% !important;
+    width: 100% !important;
+}
+.Idea-image-sparse-area {
+    padding-top: 125%;
+    display: none !important;
+}
+.Idea-image-outter-area {
+    position: absolute !important;
+    inset: -1px 0px !important;
+}
+.Idea-image-inner-word-outter-area {
+    padding-left: 80px !important;
+    padding-right: 80px !important;
+    width: 544px !important;
+    -webkit-box-pack: center !important;
+    -webkit-box-align: start !important;
+    align-items: flex-start !important;
+    height: 100% !important;
+    justify-content: center !important;
+    padding-top: 0px !important;
+    text-align: left !important;
+    position: absolute !important;
+    top: 0px !important;
+    display: flex !important;
+    flex-flow: column !important;
+    z-index: 1 !important;
+}
+.Idea-image-picture-outter-wrapper {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    display: inline-block !important;
+    vertical-align: bottom !important;
+    min-height: 1px !important;
+    position: relative !important;
+    background-position: 50% 50% !important;
+    background-repeat: no-repeat !important;
+}
+.Idea-image-attr {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    vertical-align: bottom;
+    height: 100% !important;
+    width: 100% !important;
+}
+.First-word-Total-outter-wrapper {
+    font-size: 48px !important;
+    line-height: 52px !important;
+    white-space: pre-wrap !important;
+    font-weight: 600 !important;
+}
+.Second-word-Total-outter-wrapper {
+    font-size: 18px !important;
+    line-height: 24px !important;
+    padding-top: 12px !important;
+    white-space: pre-line !important;
+}
+.Third-word-Total-outter-wrapper {
+    --eh-iti-bg: #222222;
+    margin-top: 40px !important;
+}
+.First-word-total-inner-wrapper {
+    color: rgb(34, 34, 34);
+}
+.Second-word-total-inner-wrapper {
+    color: rgb(34, 34, 34);
+}
+.Third-word-total-inner-wrapper {
+    font-size: 16px !important;
+    line-height: 20px !important;
+    letter-spacing: normal !important;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif !important;
+    color: rgb(72, 72, 72) !important;
+    padding: 14px 24px !important;
+    cursor: pointer !important;
+    display: inline-block !important;
+    margin: 0px !important;
+    position: relative !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    width: auto !important;
+    touch-action: manipulation !important;
+    font-weight: 600 !important;
+    border: 0px !important;
+    background: var(--eh-iti-bg, #FFFFFF) !important;
+    border-radius: 8px !important;
+}
+.Third-word-inner-wrapper {
+    color: rgb(255, 255, 255);
+}

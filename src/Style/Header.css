@@ -15,9 +15,6 @@ div {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-span {
-    font-size: 14px;
-}
 html {
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;

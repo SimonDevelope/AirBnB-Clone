@@ -1,0 +1,118 @@
+.Common-Contents-style::after {
+    display: -webkit-box !important;
+    display: -moz-box !important;
+    display: -ms-flexbox !important;
+    display: -webkit-flex !important;
+    display: flex !important;
+    content: '' !important;
+}
+.Common-Contents-style::before {
+    display: -webkit-box !important;
+    display: -moz-box !important;
+    display: -ms-flexbox !important;
+    display: -webkit-flex !important;
+    display: flex !important;
+    content: '' !important;
+}
+.Look-experience-total-view-port {
+    background-color: rgb(255, 255, 255);
+}
+.Look-experience-total-inner-view-port {
+    background-color: rgb(255, 255, 255);
+    overflow: auto;
+    margin: 0px auto !important;
+    position: relative !important;
+    max-width: 1760px !important;
+    padding-right: 80px !important;
+    padding-left: 80px !important;
+}
+.Look-experience-outter-wrapper {
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
+}
+.Big-title-sparse-area {
+    display: block !important;
+}
+.Big-title-sparse-inner-area {
+    display: none !important;
+}
+.Big-title-outter-area {
+    -webkit-box-direction: normal !important;
+    -webkit-box-orient: vertical !important;
+    display: flex !important;
+    flex-direction: column !important;
+    padding-bottom: 8px !important;
+}
+.Big-title-word-area {
+    color: inherit !important;
+    font-size: 1em !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+.Small-title-word-area {
+    background: var(--ehl-background-style, undefined) !important;
+    -webkit-box-align: var(--ehl-align-items, center) !important;
+    -webkit-box-pack: var(--ehl-justify-content, flex-start) !important;
+    display: flex !important;
+    justify-content: var(--ehl-justify-content, flex-start) !important;
+    text-align: var(--ehl-text-align, start) !important;
+    align-items: var(--ehl-align-items, center) !important;
+    padding-top: var(--ehl-padding-top, ) !important;
+    padding-right: var(--ehl-padding-trailing, ) !important;
+    padding-bottom: var(--ehl-padding-bottom, ) !important;
+    padding-left: var(--ehl-padding-leading, ) !important;
+    max-height: var(--ehl-max-height, ) !important;
+    max-width: var(--ehl-max-width, ) !important;
+    background-color: var(--ehl-background-color, undefined) !important;
+}
+.Inner-H1-Tag-wrapper {
+    background: var(--ehl-background-style, undefined) !important;
+    -webkit-box-align: var(--ehl-align-items, center) !important;
+    -webkit-box-pack: var(--ehl-justify-content, flex-start) !important;
+    display: flex !important;
+    justify-content: var(--ehl-justify-content, flex-start) !important;
+    text-align: var(--ehl-text-align, start) !important;
+    align-items: var(--ehl-align-items, center) !important;
+    padding-top: var(--ehl-padding-top, ) !important;
+    padding-right: var(--ehl-padding-trailing, ) !important;
+    padding-bottom: var(--ehl-padding-bottom, ) !important;
+    padding-left: var(--ehl-padding-leading, ) !important;
+    max-height: var(--ehl-max-height, ) !important;
+    max-width: var(--ehl-max-width, ) !important;
+    background-color: var(--ehl-background-color, undefined) !important;
+}
+.Big-title-total-wrapper {
+    white-space: pre-line !important;
+    max-width: 100% !important;
+    font-size: var(--tl-font-size, 32px) !important;
+    font-weight: var(--tl-font-weight, 800) !important;
+    letter-spacing: var(--tl-letter-spacing, 0em) !important;
+    line-height: var(--tl-line-height, 36px) !important;
+    color: var(--tl-color, #222222) !important;
+    -webkit-line-clamp: var(--tl-line-clamp) !important;
+    --tl-color: #222222;
+    --tl-font-size: 26px;
+    --tl-font-weight: 700;
+    --tl-line-height: 30px;
+}
+.Small-title-total-wrapper {
+    overflow: clip !important;
+    white-space: pre-line !important;
+    max-width: 100% !important;
+    font-size: var(--tl-font-size, 14px) !important;
+    font-weight: var(--tl-font-weight, 400) !important;
+    letter-spacing: var(--tl-letter-spacing, 0em) !important;
+    line-height: var(--tl-line-height) !important;
+    color: var(--tl-color, #717171) !important;
+    -webkit-line-clamp: 2 !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    display: -webkit-box !important;
+    -webkit-box-orient: vertical !important;
+    overflow: clip !important;
+}
+.Big-N-Small-word-total-wrapper {
+    display: block !important;
+}

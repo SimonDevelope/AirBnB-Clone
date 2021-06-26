@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import '../Style/Main.css';
 import Look from './Elements/LookAround';
 import Where from './Elements/Where';
-import Host from './Elements/StartToHost';
+import Idea from './Elements/GetIdea';
 import Experience from './Elements/LookExperience';
 import Setting from './Elements/NewFunction';
 
@@ -136,7 +136,7 @@ function Main () {
                     </div>
                     <Look />
                     <Where />
-                    <Host />
+                    <Idea />
                     <Experience />
                     <Setting />
                 </MainContentsWrapper>
